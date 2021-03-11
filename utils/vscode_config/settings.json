@@ -1121,7 +1121,7 @@
   "emmet.showSuggestionsAsSnippets": true,
   "material-icon-theme.showWelcomeMessage": false,
   "gitlens.codeLens.enabled": false,
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.iconTheme": "vscode-icons",
   "git.autofetch": true,
   "workbench.startupEditor": "newUntitledFile",
   "python.showStartPage": false,
@@ -1131,5 +1131,11 @@
   "cph.language.cpp.Args": "-Wall -Wextra",
   "cph.general.menuChoices": "cpp",
   "cph.general.defaultLanguage": "cpp",
-  "cph.general.defaultLanguageTemplateFileLocation": "E:\\cp\\.cph\\template.cpp"
+  "cph.general.defaultLanguageTemplateFileLocation": "D:\\cp\\.cph\\template.cpp",
+  "tabnine.experimentalAutoImports": true,
+  "cSpell.enableFiletypes": [
+    "!cpp"
+  ],
+  "vscode-neovim.neovimExecutablePaths.linux": "/usr/vin/nvim",
+  "vscode-neovim.neovimInitVimPaths.linux": "/home/irfan/.config/nvim/init.vim"
 }

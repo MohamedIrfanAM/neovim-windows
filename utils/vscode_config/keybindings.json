@@ -139,12 +139,12 @@
     "when": "explorerViewletVisible && filesExplorerFocus"
   },
   {
-    "key": "l",
+    "key": "o",
     "command": "list.select",
     "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
   },
   {
-    "key": "o",
+    "key": "l",
     "command": "list.toggleExpand",
     "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
   },
@@ -179,11 +179,6 @@
     "when": "terminalFocus"
   },
   {
-    "key": "ctrl+shift+t",
-    "command": "workbench.action.terminal.focus",
-    "when": "!terminalFocus"
-  },
-  {
     "key": "ctrl+j",
     "command": "-editor.action.insertLineAfter",
     "when": "editorTextFocus && neovim.ctrlKeysInsert && !neovim.recording && neovim.mode == 'insert'"
@@ -192,10 +187,6 @@
     "key": "alt+j",
     "command": "workbench.action.terminal.focus",
     "when": "!terminalFocus"
-  },
-  {
-    "key": "ctrl+shift+t",
-    "command": "workbench.action.togglePanel"
   },
   {
     "key": "ctrl+j",
@@ -220,6 +211,11 @@
     "key": "ctrl+f",
     "command": "-vscode-neovim.ctrl-f",
     "when": "editorTextFocus && neovim.ctrlKeysNormal && neovim.init && neovim.mode != 'insert'"
+  },
+  {
+    "key": "ctrl+h",
+    "command": "-editor.action.startFindReplaceAction",
+    "when": "editorFocus || editorIsOpen"
   }
 ]
 
